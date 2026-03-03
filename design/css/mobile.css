@@ -1,8 +1,140 @@
 @media (max-width: 768px) {
+    body {
+        padding: 0px 20px 50px;
+    }
 
-    
+    .header a {
+        display: none;
+    }
+
+    .icon_menu {
+        display: flex;
+    }
+
+    .header_container {
+        margin-top: 0;
+    }
+
+    .mobile_menu {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        right: 0;
+        display: none;
+    }
+
+    .mobile_menu_overlay {
+        width: 30%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        background-color: hsl(240, 100%, 5%);
+        opacity: 0.5;
+    }
+
+    .mobile_menu_container {
+        width: 70%;
+        height: 100%;
+        z-index: 2;
+        position: absolute;
+        right: 0;
+        background: white;
+        padding: 0px 30px;
+    }
+
+    .mobile_header {
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        margin-top: 150px;
+        width: 100%;
+    }
+
+    .mobile_header a {
+        font-size: 20px;
+        color: hsl(240, 100%, 5%);
+        text-decoration: none;
+    }
+
+    .icon_close_menu {
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .img_logo_container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo_w {
+        width: 45px;
+    }
+
+    .main_container {
+        margin-top: 0px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container_one {
+        width: 100%;
+    }
+
+    .title_paragraph_container {
+
+        flex-direction: column;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .title h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .img_web {
+        display: none;
+    }
+
+    .img_mobile {
+        display: flex;
+    }
+
+    .paragraph {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .container_two {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .container_three {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .title_container p {
+        padding-right: 0px;
+    }
+
+    .grid_container {
+        width: 100%;
+    }
 
     .attribution {
         display: none;
     }
+
 }
