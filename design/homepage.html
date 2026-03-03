@@ -21,7 +21,9 @@
 
         <div class="img_logo_container">
             <img class="logo_w" src="../assets/images/logo.svg" alt="Logo_W">
-            <img class="icon_menu" src="../assets/images/icon-menu.svg" alt="icon_menu">
+            <a href="#" onclick="openMenu()">
+                <img class="icon_menu" src="../assets/images/icon-menu.svg" alt="icon_menu">
+            </a>
         </div>
 
         <nav class="header">
@@ -33,12 +35,14 @@
         </nav>
     </header>
 
-    <div class="mobile_menu">
+    <div class="mobile_menu" id="mobile_menu">
         <div class="mobile_menu_overlay"></div>
         <div class="mobile_menu_container">
-            <div class="icon_close_menu">
-                <img src="../assets/images/icon-menu-close.svg" alt="">
-            </div>
+            <a href="#" onclick="closeMenu()">
+                <div class="icon_close_menu">
+                    <img src="../assets/images/icon-menu-close.svg" alt="">
+                </div>
+            </a>
             <nav class="mobile_header">
                 <a href="#">Home</a>
                 <a href="#">New</a>
@@ -156,6 +160,9 @@
             target="_blank">Frontend Mentor</a>
         Coded by <a href="https://github.com/andreslondono00/news-homepage" target="_blank">Andrés Londoño</a>
     </footer>
+
+    <script type="text/javascript" src="./js/homepage.js"></script>
+
 </body>
 
 </html>
