@@ -10,6 +10,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
     - [The challenge](#the-challenge)
     - [Screenshot](#screenshot)
   - [Desktop](#desktop)
+  - [Mobile](#mobile)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -30,9 +31,11 @@ This challenge focused heavily on responsive design, layout structuring, and cle
 - ![alt text](desktop.png)
 - ![alt text](active-desktop.png)
 
+## Mobile
 
-
-
+- ![alt text](mobile.png)
+- ![alt text](active-mobile.png)
+- ![alt text](mobile-menu.png)
 
 ### Links
 
